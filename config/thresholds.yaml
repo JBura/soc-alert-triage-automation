@@ -1,0 +1,16 @@
+failed_login:
+  likelihood:
+    threat_intel_hit: 5
+    high_attempt_count: 3
+    rapid_attempts: 2
+
+  impact:
+    admin_account: 5
+    server_asset: 3
+    external_source: 2
+
+severity_levels:
+  low: 0
+  medium: 6
+  high: 11
+  critical: 16
