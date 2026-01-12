@@ -42,22 +42,20 @@ RAW ALERT → RISK SCORING → SEVERITY → RESPONSE → LOGGING
 
 
 ## Project Structure
-
 Automation/
-    main.py
-    alerts/
-        failed_login_sample.json
-    triage/
-        parser.py
-        intel.py
-        risk_model.py
-        decision_engine.py
-        responder.py
-    config/
-        thresholds.yaml
-    logs/
-        soc_triage.log
-
+├── main.py
+├── alerts/
+│   └── failed_login_sample.json
+├── triage/
+│   ├── parser.py
+│   ├── intel.py
+│   ├── risk_model.py
+│   ├── decision_engine.py
+│   └── responder.py
+├── config/
+│   └── thresholds.yaml
+├── logs/
+│   └── soc_triage.log
 
 
 ## Example Output
